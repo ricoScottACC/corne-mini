@@ -8,8 +8,6 @@
 #define NAV 3
 #define FUN 4
 
-//testing mouse movement and scroll binds...
-
 / {
     
     combos {
