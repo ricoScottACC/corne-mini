@@ -52,6 +52,11 @@
             bindings = <&kp ESC>;
             key-positions = <1 2>;
         };
+
+        combo_mo3 {
+            bindings = <&mo 3>;
+            key-positions = <38 39>;
+        };
     };
 
     //
