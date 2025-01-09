@@ -14,6 +14,7 @@
         compatible = "zmk,combos";
 
         combo_quote {
+            timeout-ms = <30>;
             bindings = <&kp SQT>;
             key-positions = <8 9>;
         };
@@ -53,9 +54,14 @@
             key-positions = <1 2>;
         };
 
-        combo_mo3 {
+        combo_mo3_1 {
             bindings = <&mo 3>;
             key-positions = <37 40>;
+        };
+
+        combo_mo3_2 {
+            bindings = <&mo 3>;
+            key-positions = <38 39>;
         };
     };
 
