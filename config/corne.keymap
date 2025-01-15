@@ -151,10 +151,10 @@
         NAV {
                 display-name = "Nav";
             bindings = <
-&trans  &none      &kp LC(LS(TAB))  &none     &kp LC(TAB)  &none    &none  &kp HOME     &kp UP    &kp END        &none      &trans
-&trans  &kp LSHFT  &kp LCTRL        &kp LALT  &kp LGUI     &none    &none  &kp LEFT     &kp DOWN  &kp RIGHT      &none      &trans
-&trans  &none      &none            &none     &none        &none    &none  &kp PAGE_UP  &none     &kp PAGE_DOWN  &none      &trans
-                                    &none     &none        &none    &none  &none        &none
+&trans  &none      &kp LC(LS(TAB))  &none     &kp LC(TAB)       &none    &none  &kp HOME     &kp UP    &kp END        &none      &trans
+&trans  &kp LSHFT  &kp LCTRL        &kp LALT  &kp LGUI          &none    &none  &kp LEFT     &kp DOWN  &kp RIGHT      &none      &trans
+&trans  &none      &kp LA(F12)      &none     &kp LG(LS(RBKT))  &none    &none  &kp PAGE_UP  &none     &kp PAGE_DOWN  &none      &trans
+                                    &none     &none             &none    &none  &none        &none
             >;
         };
 
